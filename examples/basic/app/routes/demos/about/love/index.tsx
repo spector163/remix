@@ -1,6 +1,6 @@
 import { Link } from "@remix-run/react";
 
-export default function Whoa() {
+export default function Love() {
   return (
     <div>
       <p>
@@ -10,8 +10,9 @@ export default function Whoa() {
       </p>
       <p>
         <strong>
-          <Link to="../love">
-            Go ahead to the <code>/love</code> index.
+          <Link to="first">
+            Go back to the <code>/about</code> index.
+            go on level below.
           </Link>
         </strong>
       </p>
